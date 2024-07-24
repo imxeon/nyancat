@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+body {
+  font-family: tektur;
+  background-image: url(./images/jeremy-perkins-uhjiu8FjnsQ-unsplash-small.jpg);
+  color: white;
+}
+
+header, ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  padding: 0px 25px 0px 25px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  gap: 20px;
+}
+
+main {
+  width: 70%;
+  margin: 60px auto 0 auto;
+
+}
+
+section {
+  /* background-color: lightgreen; */
+  height: auto;
+  margin-bottom: 80px;
+}
+
+section h2 {
+  text-align: center;
+  height: auto;
+}
+
+#nyancat-image, img {
+  height: auto;
+  width: 260px;
+  margin: auto;
+}
+
+section p {
+  font-family: arial;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+#catra-image {
+  height: 280px;
+  width: 100px;
+  margin: auto;
+}
+
+#catra-image img {
+  height: 280px;
+  width: 100px;
+  /* margin: auto; */
+}
+
+#garfield-image {
+  height: auto;
+  width: 260px;
+  margin: auto;
+}
+
+#garfield-image img {
+  
+}
+
